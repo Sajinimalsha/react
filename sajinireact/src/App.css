@@ -1,0 +1,34 @@
+#id123{
+  border-radius: 50% 50%; width: 50%; margin-left: 25%;
+}
+
+#z{color: white;text-align: left; font-size: 120%; font-weight: bolder;}
+#k{color: white; text-align: left; font-size:160%; padding-left: 8%;font-weight: bolder;}
+
+
+#c{text-align:center;font-size:50px ;color: white;}
+
+#ru{text-align:left;}
+
+.navbar-item,.navbar-link {color: aliceblue !important;}
+
+#b{text-align: left;font-size: 30px; color:white;}
+
+#navbarBasicExample{
+background-color: black;
+}
+
+.navbar-link:hover,.navbar-item:hover{
+background-color: grey !important;
+}
+
+.container-1 {
+          display:flex;
+          flex-direction:row;
+          display:flex;
+          flex-direction:row; 
+          padding:0 5% 0 5% ;
+          margin-top: 5%;
+}
+
+@media (max-width: 900px){ .container-2{width:100% !important;padding-top: 10%;} .container-3{flex-direction:column-reverse !important ;} .container-1{flex-direction: column;} #k{text-align: center; padding:0%;} #bset{display: flex; flex-direction: row;} nav{padding: 0;}} 
